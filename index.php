@@ -1,9 +1,9 @@
 <?php
     require ("config.php");     
 ?>
-<html lang="en">
+<html lang="en">   
     <form action="submit.php" method="POST">
-        <script>
+        <script
             src="https://checkout.stripe.com/checkout.js" class="stripe-button"
             data-key="<?php echo $publishableKey ?>"
             data-amount="100000"
